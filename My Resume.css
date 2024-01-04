@@ -1,0 +1,37 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 10;
+    padding: 20; 
+    background-color: rgb(200, 250, 252);
+}
+h1 {color: rgb(24, 2, 45) font-family: Times New Roman, sans-serif BOLD;}
+h2 {color: rgb(24, 2, 45) font-family: Times New Roman, sans-serif BOLD;}
+p {color: rgb(19, 20, 19);}
+.content {
+    margin: 20px;
+    text-align: center;
+    color: rgb(30, 7, 113);
+}
+.section {
+    margin-bottom: 30px;   
+}
+<marquee> Call me at +1438 924 3326....</marquee>
+<marquee direction="right"
+         behavior="alternate"
+         style="border:rgb(18, 153, 41) 2px SOLID">
+    Email me at emmanuel.agbontaen@gmail.com
+</marquee>
+    <canvas id="myCanvas" width="200" height="25" style="border:1px solid #5658d8;"> </br>
+<canvas>
+
+</canvas>
+
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+context.font = "20px Arial";
+context.fillStyle = "Black";
+context.fillText("My Resume", 20, 20);
+</script>
+</html>
